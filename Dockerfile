@@ -21,7 +21,7 @@ COPY --from=builder /app/build/libs/unidbg-fetch-qsign-*-all.jar ./unidbg-fetch-
 COPY --from=builder /app/txlib ./txlib
 
 # 暴露项目运行的端口号
-EXPOSE 8080
+EXPOSE 11234
 
 # 启动项目
-CMD ["java", "-jar", "unidbg-fetch-qsign-all.jar", "--basePath=./txlib/8.9.71"]
+CMD ["java", "-jar", "unidbg-fetch-qsign-all.jar", "--basePath=./txlib/8.9.73"]

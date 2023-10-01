@@ -1,11 +1,11 @@
 {
   "server": {
     "host": "0.0.0.0",
-    "port": 8080
+    "port": 11234
   },
   "share_token": true,
   "count": 10,
-  "key": "114514",
+  "key": "",
   "auto_register": true,
   "protocol": {
     "package_name": "com.tencent.mobileqq",
@@ -14,8 +14,8 @@
     "code": "4416"
   },
   "unidbg": {
-    "dynarmic": false,
-    "kvm": false,
+    "dynarmic": true,
+    "kvm": true,
     "unicorn": true,
     "debug": true
   },
